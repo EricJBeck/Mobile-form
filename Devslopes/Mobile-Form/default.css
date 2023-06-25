@@ -12,13 +12,12 @@
   background-color: purple;
   color: darkorchid;
   justify-content: end;
-  /* font-size: 15px; */
- 
+  padding-right: 3%; 
 }
 
 .header1 i {
   size: 15px;
-   padding: 10px 3%;
+   padding: 10px 1%;
 }
 
 .search {
@@ -29,6 +28,8 @@
 .header2 .container {
   display: flex;
   align-items: center;
+  padding-right: 5%;
+  padding-left: 3%;
 }
 
 .header2 {
@@ -42,7 +43,7 @@ h1 {
   padding: 0 30px;
 }
 
-i {padding: 0 10px;}
+.header2 i {padding: 0 4%;}
 
 .inputs {
   display: grid;
@@ -57,7 +58,7 @@ i {padding: 0 10px;}
   justify-content: stretch;
 }
 
-.user {
+/* .user {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
@@ -117,12 +118,12 @@ i {padding: 0 10px;}
   grid-row: 6 / 7;
 }
 
-.cake {
-  grid-column:1 / 2;
-  grid-row: 7 / 8;
-}
+.cake { 
+  grid-column:1 / 2; 
+  grid-row: 7 / 8; 
+} 
 
 .birthday {
   grid-column: 2 / 6;
   grid-row: 7 / 8;
-}
+} */
