@@ -1,0 +1,128 @@
+.body {
+  display: block;
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.header1 {
+  display: flex;
+  background-color: purple;
+  color: darkorchid;
+  justify-content: end;
+  /* font-size: 15px; */
+ 
+}
+
+.header1 i {
+  size: 15px;
+   padding: 10px 3%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.header2 .container {
+  display: flex;
+  align-items: center;
+}
+
+.header2 {
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+
+h1 {
+  margin-right: auto;
+  color: whitesmoke;
+  padding: 0 30px;
+}
+
+i {padding: 0 10px;}
+
+.inputs {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 20px);
+  column-gap: 10px;
+  row-gap: 20px;
+  gap: 10px 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  place-items: stretch;
+  justify-content: stretch;
+}
+
+.user {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.name {
+  grid-column: 2 / 6;
+  grid-row: 1 / 2;
+}
+
+.phone-icon {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.phone {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+}
+
+.label {
+  grid-column: 4 / 6;
+  grid-row: 2 / 3;
+}
+
+.marker {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+ }
+
+.address {
+  grid-column: 2 / 6;
+  grid-row: 3 / 4;
+}
+
+.city {
+  grid-column: 2 / 6;
+  grid-row: 4 / 5;
+}
+
+.state {
+  grid-column: 2 / 4;
+  grid-row: 5 / 6;
+}
+
+.zip {
+  grid-column: 4 / 6;
+  grid-row: 5 / 6;
+}
+
+.email-icon {
+  grid-column: 1 / 2;
+  grid-row: 6 / 7;
+}
+
+.email {
+  grid-column: 2 / 6;
+  grid-row: 6 / 7;
+}
+
+.cake {
+  grid-column:1 / 2;
+  grid-row: 7 / 8;
+}
+
+.birthday {
+  grid-column: 2 / 6;
+  grid-row: 7 / 8;
+}
