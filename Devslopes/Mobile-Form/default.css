@@ -72,6 +72,8 @@ input, select {font-size: 18px;}
   grid-row: 1 / 2;
 }
 
+.name [type=text] {background-color: lightgray;}
+
 .phone-icon {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
@@ -87,6 +89,8 @@ input, select {font-size: 18px;}
   grid-row: 2 / 3;
 }
 
+.label select {background-color: whitesmoke;}
+
 .marker {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
@@ -96,6 +100,8 @@ input, select {font-size: 18px;}
   grid-column: 2 / 6;
   grid-row: 3 / 4;
 }
+
+.address [type=text] {background-color: lightgray;}
 
 .city {
   grid-column: 2 / 6;
@@ -107,10 +113,14 @@ input, select {font-size: 18px;}
   grid-row: 5 / 6;
 }
 
+.state select {background-color: lightgrey;}
+
 .zip {
   grid-column: 3 / 6;
   grid-row: 5 / 6;
 }
+
+.zip [type=tel] {background-color: lightgrey;}
 
 .email-icon {
   grid-column: 1 / 2;
@@ -131,3 +141,5 @@ input, select {font-size: 18px;}
   grid-column: 2 / 6;
   grid-row: 7 / 8;
 }
+
+.birthday [type=date] {background-color: lightgray;}
