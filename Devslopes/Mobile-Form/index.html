@@ -27,18 +27,18 @@
         <i class='fas fa-user'></i>
       </div>
       <div class="name">
-        <input id="Name" name="Name" type="text" size="50" placeholder="Name">
+        <input id="Name" name="Name" type="text" size="30" placeholder="Name">
       </div>
       <div class="phone-icon">
         <i class='fas fa-phone'></i>
       </div>
       <div class="phone">
-        <input type="tel"  size="50%" placeholder="Phone"
+        <input type="tel"  size="12" maxlength="10"  placeholder="Phone"
         onkeypress="return onlyNumberKey(event)" />
       </div>
       <div class="label">
-        <select name="Label" id="Label" size="1">
-        <option value=""><Label></Label></option>
+        <select name="Label" id="Label" size="1" style="width: 130px;">
+        <option value="">Label</option>
         <option value="Home">Home</option>
         <option value="Work">Work</option>
         <option value="Work-Cell">Work Cell</option>
@@ -49,13 +49,13 @@
         <i class='fas fa-map-marker-alt'></i>
       </div>
       <div class="address">
-        <input id="Address" name="Address" type="text" size="50" placeholder="Address">
+        <input id="Address" name="Address" type="text" size="30" placeholder="Address">
       </div>
       <div class="city">
-        <input id="City" name="City" type="text" size="50"placeholder="City">
+        <input id="City" name="City" type="text" size="30" placeholder="City">
       </div>
       <div class="state">
-        <select name="State" id="State" size="1">
+        <select name="State" id="State" size="1" style="width: 125px;">
           <option value="">State</option>
           <option value=""></option>
           <option value=""></option>
@@ -127,20 +127,20 @@
         </select>
       </div>
       <div class="zip">
-        <input type="tel" size="50%" placeholder="Zip"
+        <input type="tel" size="12" placeholder="Zip"
         onkeypress="return onlyNumberKey(event)" />
       </div>
       <div class="email-icon">
         <i class="fa fa-envelope"></i>
       </div>
       <div class="email">
-        <input id="Email" name="Email" type="email" size="50" placeholder="Email">
+        <input id="Email" name="Email" type="email" size="30" placeholder="Email">
       </div>
       <div class="cake">
         <i class='fas fa-birthday-cake'></i>
       </div>
       <div class="birthday">
-        <input id="Birthday" name="Birthday" type="date" size="10">
+        <input id="Birthday" name="Birthday" type="date" size="33" style="width: 270px;">
       </div>
     </div>  
   </form>

@@ -49,13 +49,17 @@ h1 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(8, 20px);
-  column-gap: 10px;
-  row-gap: 20px;
-  gap: 10px 20px;
-  justify-items: stretch;
-  align-items: stretch;
+  gap: 30px 20px;
   place-items: stretch;
   justify-content: stretch;
+  margin: 20px
+}
+
+input, select {font-size: 18px;}
+
+.inputs i {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .user {
@@ -64,7 +68,7 @@ h1 {
 }
 
 .name {
-  grid-column: 2 / 6;
+  grid-column: 2 / 7;
   grid-row: 1 / 2;
 }
 
@@ -79,7 +83,7 @@ h1 {
 }
 
 .label {
-  grid-column: 4 / 6;
+  grid-column: 3 / 5;
   grid-row: 2 / 3;
 }
 
@@ -99,12 +103,12 @@ h1 {
 }
 
 .state {
-  grid-column: 2 / 4;
+  grid-column: 2 / 3;
   grid-row: 5 / 6;
 }
 
 .zip {
-  grid-column: 4 / 6;
+  grid-column: 3 / 6;
   grid-row: 5 / 6;
 }
 
